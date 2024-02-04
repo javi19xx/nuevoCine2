@@ -1,0 +1,44 @@
+.cinema-header {
+  background-color:#b3fff9;
+  color: #05d3f8;
+  padding: 0.1rem;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  font-family: 'Cinzel', serif;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 220px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.a1{
+  font-size: 25px;
+}
+nav {
+  display: flex;
+}
+
+nav a {
+  color: #41d595;
+  margin-right: 50px;
+  font-family: 'Cinzel', serif;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #05d3f8;
+  font-family: 'Cinzel', serif;
+}

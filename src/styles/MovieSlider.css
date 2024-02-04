@@ -1,0 +1,52 @@
+.movie-slider {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .movie-slide {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .movie-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #009ddd;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .movie-slide:hover img {
+    transform: scale(1.1);
+  }
+  
+  p{
+    color: white;
+  }
+  
+  .slick-prev {
+    left: -30px;
+  }
+  
+  .slick-next {
+    right: -30px;
+  }
+  
+  .slick-prev:hover,
+  .slick-next:hover {
+    color: white; 
+  }
+  
+  .slick-dots {
+    bottom: 10px;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 10px;
+    color: #fff;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: white;
+  }
+  
